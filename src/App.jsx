@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const DATA = {
   name: "Divyansh Kaushal",
-  role: "Student • ML Engineer • Software Developer • Quantum Robotics Enthusiast",
+  role: "• ML Engineer • Software Developer • Quantum Robotics Enthusiast",
   tagline:
     "Student by journey, ML engineer by passion, quantum robotics thinker by vision.",
   location: "Amethi, Uttar Pradesh, India",
@@ -15,7 +15,7 @@ const DATA = {
     github: "https://github.com/DIVY3200",
     linkedin: "https://www.linkedin.com/in/divyansh-kaushal-165494230/",
     resume:
-      "https://drive.google.com/file/d/1FvWwomo49hqim2PY37RmAtVvPWTesREp/view?usp=sharing",
+      "https://docs.google.com/document/d/1DoSge1k3mVL3lDOEyW2mz50NEiA2YTwO/edit?usp=sharing&ouid=105773074638200693037&rtpof=true&sd=true",
   },
   highlights: [
     "5⭐ on HackerRank",
@@ -60,7 +60,7 @@ const DATA = {
       links: {
         github:
           "https://github.com/DIVY3200/Crowd-Management-System-Using-AI-and-ML",
-        live: "#",
+        live: "https://github.com/DIVY3200/Crowd-Management-System-Using-AI-and-ML",
       },
       featured: true,
     },
@@ -71,7 +71,7 @@ const DATA = {
       tags: ["Node.js", "Express.js", "MySQL", "Restful APIs"],
       links: {
         github: "https://github.com/DIVY3200/Real-Time-Data-Processing",
-        live: "#",
+        live: "https://github.com/DIVY3200/Real-Time-Data-Processing",
       },
     },
     {
@@ -81,7 +81,7 @@ const DATA = {
       tags: ["PowerBI", "MySQL", "Excel"],
       links: {
         github: "https://github.com/DIVY3200/SQL-Python-Ecommerce-project",
-        live: "#",
+        live: "https://github.com/DIVY3200/SQL-Python-Ecommerce-project",
       },
     },
     {
@@ -89,7 +89,7 @@ const DATA = {
       desc:
         "Explored Quantum neural networks(QNN) for image classification on the EUROSAT Earth observation dataset, achieving accuracy comparable to classical CNNs.",
       tags: ["Qiskit", "Pytorch", "QNN"],
-      links: { github: "#", live: "#" },
+      links: { github: "https://github.com/DIVY3200/Remote-Sensing-Using-QML", live: "https://github.com/DIVY3200/Remote-Sensing-Using-QML" },
     },
   ],
 
@@ -265,7 +265,7 @@ export default function App() {
   const formData = new FormData(e.currentTarget);
 
   // ✅ add access key
-  formData.append("access_key", import.meta.env.VITE_WEB3_KEY);
+  formData.append("access_key", "d6dd747a-f030-4207-a36f-20cffcaa7305");
 
   try {
     const res = await fetch("https://api.web3forms.com/submit", {
@@ -417,7 +417,7 @@ const scrollTo = (id) => {
 
               <div className="typingRow">
                 <span className="dot" />
-                <span className="typingLabel">Currently focused on</span>
+                <span className="typingLabel">Focused on</span>
                 <span className="typing" ref={typingRef} />
               </div>
 
