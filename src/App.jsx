@@ -114,7 +114,7 @@ const DATA = {
     },
     {
       time: "2021 – 2025",
-      title: "Bachelor – Pranveer Singh Institute of Technology",
+      title: "Bachelor – PSIT Kanpur",
       desc:
         "B.Tech in Computer Science & Engineering (AI/ML). Built a strong base in DSA, ML, and software engineering through projects and problem solving.",
     },
